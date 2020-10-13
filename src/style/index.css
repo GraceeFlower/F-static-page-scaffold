@@ -70,14 +70,18 @@ ul {
 }
 
 .category-detail {
+  background-color: #fff;
   padding: 25px;
   margin: 45px 0;
 }
 
 .category-detail p {
+  color: #9b9fa8;
+  font-weight: bold;
   margin-bottom: 70px;
 }
 
 .category-detail .confirm-button {
+  border: 1px solid #e0e3e7;
   padding: 5px 12px;
 }
