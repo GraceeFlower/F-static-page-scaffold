@@ -58,3 +58,26 @@ ul {
   border-style: solid;
   border-color: #fff transparent transparent transparent;
 }
+
+.facebook-main {
+  padding: 10px 15%;
+}
+
+.facebook-category {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.category-detail {
+  padding: 25px;
+  margin: 45px 0;
+}
+
+.category-detail p {
+  margin-bottom: 70px;
+}
+
+.category-detail .confirm-button {
+  padding: 5px 12px;
+}
