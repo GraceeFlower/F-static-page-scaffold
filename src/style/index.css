@@ -1,5 +1,6 @@
 body,
-html {
+html,
+h1 {
   margin: 0;
   padding: 0;
 }
@@ -17,4 +18,25 @@ ul {
   list-style: none;
   margin: 0;
   padding: 0;
+}
+
+.facebook-header,
+.header-logo {
+  display: flex;
+  align-items: center;
+}
+
+.facebook-header {
+  justify-content: space-between;
+  padding: 10px 0;
+  border: 1px solid red;
+}
+
+.header-logo button {
+  height: fit-content;
+  padding: 3px 6px;
+}
+
+.facebook-main {
+  border: 1px solid #000;
 }
